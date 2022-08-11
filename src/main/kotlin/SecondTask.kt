@@ -7,7 +7,7 @@ fun main(){
     val MyList= mutableListOf<String>()
     scn.nextLine()
     while(N>0){
-        println("Enter string")
+        println("Enter string name")
         val input=scn.nextLine()
         MyList.add(input)
         N--
